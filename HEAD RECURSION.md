@@ -17,7 +17,6 @@ To write a Python program to demonstrate **Head Recursion** by finding and print
 
 ## 💻 PROGRAM:
 def sum_of_digits(num):<br>
-    """Helper function to calculate sum of digits of a number."""<br>
     return sum(int(digit) for digit in str(num))<br>
 
 def fun(n):<br>
